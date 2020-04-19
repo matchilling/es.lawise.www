@@ -74,13 +74,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `LAWISE Blog`,
+        short_name: `LAWISE`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`
+        icon: `content/assets/lawise-icon.png`
       }
     },
     `gatsby-plugin-react-helmet`,
