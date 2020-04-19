@@ -11,6 +11,13 @@ Wordpress2016.overrideThemeStyles = () => {
     "a.gatsby-resp-image-link": {
       boxShadow: `none`,
     },
+    "main > article > section > p:first-of-type": {
+      color: `#b5b5b5`,
+      fontSize: `140%`,
+      fontFamily: `sans-serif`,
+      fontWeight: `200`,
+      lineHeight: `140%`,
+}
   }
 }
 

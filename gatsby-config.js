@@ -19,12 +19,13 @@ module.exports = {
       },
     ],
     description: `News, articles and analysis on legal issues related to #AI, #Blockchain, #DataSecurity, #IP, #LegalTech and more ... ⚖️ 🤖 💥`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    siteUrl: `https://matchilling.github.io/es.lawise.www/`,
     social: {
       linkedIn: `estefaniavecc`,
       twitter: `estefaniavecc`,
     },
   },
+  pathPrefix: "/es.lawise.www",
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,

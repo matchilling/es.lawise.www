@@ -67,14 +67,14 @@ const BlogIndex = ({ data, location }) => {
                   {node.frontmatter.date} • {node.frontmatter.author}
                 </small>
               </header>
-              <section>
+              <p>
                 <p
-                  style={{ fontFamily: `sans-serif` }}
+                  style={{ fontFamily: `sans-serif`, fontSize: `110%` }}
                   dangerouslySetInnerHTML={{
                     __html: node.frontmatter.description || node.excerpt,
                   }}
                 />
-              </section>
+              </p>
             </article>
           )
         })}

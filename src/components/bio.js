@@ -45,7 +45,7 @@ const Bio = props => {
       }
     }
   `)
-  console.log(data)
+
   const { authors } = data.site.siteMetadata
   const author = authors.filter(it => it.name === props.author).pop()
 
