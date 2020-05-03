@@ -42,7 +42,7 @@ const Layout = ({ location, title, children }) => {
         <header>{header}</header>
         <main>{children}</main>
         <footer>
-          © {new Date().getFullYear()}, Creado con 🖤️ en BCN{` `}
+          © {new Date().getFullYear()}, Creado con 🖤️{` `}
         </footer>
       </div>
     </React.Fragment>
