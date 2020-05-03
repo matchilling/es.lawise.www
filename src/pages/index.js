@@ -4,6 +4,7 @@ import { graphql, Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
+import Header from "../components/header"
 
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
@@ -15,50 +16,7 @@ const BlogIndex = ({ data, location }) => {
 
   return (
     <React.Fragment>
-      <div
-        style={{
-          borderWidth: `16px 0 0`,
-          borderTopStyle: `solid`,
-          borderImage: `linear-gradient(139deg, #fb8817, #ff4b01, #c12127, #e02aff) 3`,
-        }}
-      />
-      <header
-        style={{
-          backgroundColor: `#f9f9f9`,
-          borderBottom: `1px solid #e0e0e0`,
-        }}
-      >
-        <div
-          style={{
-            marginLeft: `auto`,
-            marginRight: `auto`,
-            maxWidth: rhythm(24),
-            padding: `${rhythm(0.5)} ${rhythm(3 / 4)}`,
-          }}
-        >
-          <span
-            style={{
-              fontFamily: `Montserrat,sans-serif`,
-              fontSize: `300%`,
-              fontWeight: `900`,
-              marginLeft: `auto`,
-              marginRight: `auto`,
-              maxWidth: rhythm(24),
-            }}
-          >
-            LAWISE
-          </span>
-          <p
-            style={{
-              fontSize: `145%`,
-              padding: `0 0 20px 0`,
-              margin: `0 0 20px 0`,
-            }}
-          >
-            {description}
-          </p>
-        </div>
-      </header>
+      <Header />
 
       <Layout location={location} title={siteTitle}>
         <SEO title="LAWISE" />
@@ -70,12 +28,12 @@ const BlogIndex = ({ data, location }) => {
               key={node.fields.slug}
               style={{
                 fontSize: `110%`,
-                borderBottom: `1px solid #f1f1f1`,
+                borderBottom: `1px solid rgb(224, 224, 224, 0.5)`,
                 padding: `0 0 20px 0`,
                 margin: `0 0 20px 0`,
               }}
             >
-              <header>
+              <div>
                 <h2
                   style={{
                     marginBottom: rhythm(1 / 4),
@@ -98,7 +56,7 @@ const BlogIndex = ({ data, location }) => {
                 >
                   {node.frontmatter.date} • {node.frontmatter.author}
                 </small>
-              </header>
+              </div>
               <div>
                 <p>
                   <p

@@ -15,11 +15,9 @@ const Footer = () => {
           <div>
             <h4>Disclaimer</h4>
             <p>
-              Nothing provided in this website or transmitted by email, or
-              otherwise provided, constitutes legal or patent advice. This
-              website and associated materials are intended to provide only
-              general information regarding patents and trademarks, and are not
-              a substitute for legal, patent or trademark advice.
+              Toda la información contenida en este sitio web o la transmitida
+              por cualquier otro medio es de carácter general. No constituye
+              asesoramiento jurídico, ni puede sustituirlo.
             </p>
           </div>
         </div>
@@ -40,7 +38,7 @@ const Footer = () => {
           <section
             style={{
               display: `flex`,
-              fontSize: `80%`,
+              fontSize: `75%`,
               justifyContent: `space-between`,
               textTransform: `uppercase`,
             }}
@@ -53,10 +51,10 @@ const Footer = () => {
                 <a href={""}>Aviso legal</a>
               </li>
               <li>
-                <a href={""}>Política de Privacidad</a>
+                <a href={""}>Privacidad</a>
               </li>
               <li>
-                <a href={""}>Política de Cookies</a>
+                <a href={""}>Cookies</a>
               </li>
             </ul>
           </section>

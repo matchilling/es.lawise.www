@@ -33,11 +33,38 @@ iframe {
     height: 315px;
 }
 
+header {
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.05);
+}
+
+header a.logo img {
+    width: 35px;
+    height: 35px;
+    margin: 0;
+}
+
+header a.logo {
+    color: rgba(0, 0, 0, 0.9);
+    box-shadow: none;
+    height: 35px;
+    display: inline-block;
+    margin: 20px;
+}
+
+header a.logo span {
+    font-family: Montserrat, sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+    position: relative;
+    top: -8px;
+    left: 4px;
+}
+
 footer {
     background-color: rgba(0, 0, 0, 0.9);
     color: rgba(255, 255, 255, 0.7);
     font-family: sans-serif;
-    padding: 60px 0px;
+    padding: 60px 10px;
     font-size: 15.8px;
     font-weight: 200;
 }
@@ -54,6 +81,7 @@ footer h4 {
 footer p {
     font-weight: 200;
     font-size: 85%;
+    margin: 0 20px 15px 0;
     text-align: justify;
 }
 

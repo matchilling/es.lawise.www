@@ -5,6 +5,7 @@ import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm, scale } from "../utils/typography"
+import Header from "../components/header"
 
 const BlogPostTemplate = ({ data, pageContext, location }) => {
   const post = data.markdownRemark
@@ -13,20 +14,14 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
 
   return (
     <React.Fragment>
-      <div
-        style={{
-          borderWidth: `16px 0 0`,
-          borderTopStyle: `solid`,
-          borderImage: `linear-gradient(139deg, #fb8817, #ff4b01, #c12127, #e02aff) 3`,
-        }}
-      />
+      <Header />
       <Layout location={location} title={siteTitle}>
         <SEO
           title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}
         />
         <article>
-          <header>
+          <div>
             <h1
               style={{
                 marginTop: rhythm(1),
@@ -44,7 +39,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
             >
               {post.frontmatter.date}
             </p>
-          </header>
+          </div>
           <section dangerouslySetInnerHTML={{ __html: post.html }} />
           <hr
             style={{
