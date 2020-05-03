@@ -5,31 +5,46 @@ Wordpress2016.overrideThemeStyles = () => {
   return {
     a: {
       boxShadow: "0 1px 0 0 currentColor",
-      color: "rgb(255,42,78)",
-      textDecoration: "none"
+      textDecoration: "none",
     },
     "article a": {
-      backgroundImage: `linear-gradient(180deg, transparent 70%, rgb(255,42,78, .4) 0)`,
-      boxShadow: `none`,
+      boxShadow: "0 1px 0 0 currentColor",
       color: `hsla(0, 0%, 0%, 0.9)`,
-      textDecoration: `none`
+      textDecoration: `none`,
+    },
+    article: {
+      fontSize: "110%",
+      lineHeight: "2",
     },
     "article a:hover": {
-      backgroundImage: `linear-gradient(180deg, transparent 70%, rgb(255,42,78, .8) 0)`,
-      boxShadow: `none`,
+      boxShadow: "0 1px 0 0 currentColor",
       color: `hsla(0, 0%, 0%, 0.9)`,
-      textDecoration: `none`
+      textDecoration: `none`,
     },
     "a.gatsby-resp-image-link": {
-      boxShadow: `none`
+      boxShadow: `none`,
+    },
+    "article figure": {
+      margin: "0 -3rem",
+    },
+    "article figcaption": {
+      color: "rgba(0, 0, 0, 0.35)",
+      fontFamily: "sans-serif",
+      fontSize: "80%",
+      textAlign: "center",
+      fontStyle: "italic",
+    },
+    "article mark": {
+      backgroundColor: `rgb(255,42,78, .2)`,
+      color: `hsla(0, 0%, 0%, 0.9)`,
     },
     "main > article > section > p:first-of-type": {
       color: `#b5b5b5`,
       fontSize: `140%`,
       fontFamily: `sans-serif`,
       fontWeight: `200`,
-      lineHeight: `140%`
-    }
+      lineHeight: `140%`,
+    },
   }
 }
 

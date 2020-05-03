@@ -51,9 +51,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
               marginBottom: rhythm(1),
             }}
           />
-          <footer>
-            <Bio author={post.frontmatter.author} />
-          </footer>
+          <Bio author={post.frontmatter.author} />
         </article>
 
         <nav>
