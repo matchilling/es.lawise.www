@@ -1,7 +1,7 @@
 {
   "name": "es.lawise.www",
   "private": true,
-  "description": "LAWISE blog powered by Gatsby and Markdown",
+  "description": "LAWISE",
   "version": "0.1.0",
   "author": "Mathias Schilling <m@matchilling.com>",
   "bugs": {

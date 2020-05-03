@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `LAWISE Blog`,
+    title: `LAWISE`,
     authors: [
       {
         name: `Carlota`,
@@ -74,7 +74,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `LAWISE Blog`,
+        name: `LAWISE`,
         short_name: `LAWISE`,
         start_url: `/`,
         background_color: `#ffffff`,

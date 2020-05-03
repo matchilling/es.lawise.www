@@ -54,7 +54,7 @@ const BlogIndex = ({ data, location }) => {
       </header>
 
       <Layout location={location} title={siteTitle}>
-        <SEO title="LAWISE Blog"/>
+        <SEO title="LAWISE"/>
 
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
