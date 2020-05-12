@@ -13,11 +13,14 @@ const Footer = () => {
           }}
         >
           <div>
-            <h4>Disclaimer</h4>
+            <h4>LAWISE</h4>
             <p>
-              Toda la información contenida en este sitio web o la transmitida
-              por cualquier otro medio es de carácter general. No constituye
-              asesoramiento jurídico, ni puede sustituirlo.
+              LAWISE es un espacio donde analizamos las implicaciones legales y
+              efectos que conllevan los avances tecnológicos en las
+              organizaciones y en nuestra vida cotidiana. Aquí encontrarás
+              artículos y notas de actualidad sobre temas legales relacionados
+              con la inteligencia artificial, privacidad, propiedad intelectual,
+              e-Gaming, Blockchain, LegalTech y otros asuntos de interés.
             </p>
           </div>
         </div>
@@ -44,7 +47,8 @@ const Footer = () => {
             }}
           >
             <div>
-              © {new Date().getFullYear()}, Lawise{` `}
+              © {new Date().getFullYear()}, <a href="/">Lawise</a>
+              {` `}
             </div>
             <ul>
               <li>

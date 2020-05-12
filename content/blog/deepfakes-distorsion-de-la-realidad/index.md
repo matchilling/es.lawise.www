@@ -1,14 +1,14 @@
 ---
 title: "Deepfakes – Armas legales contra la distorsión de la realidad"
-author: Estefania
-date: "2020-04-19T12:30:00.000Z"
+author: "Estefania Asensio"
+date: "2020-05-13T12:30:00.000Z"
 description: "La desinformación y las fake news son una herramienta de influencia poderosa y no precisamente costosa que puede llegar a destruir la confianza en la sociedad."
 tags: "Inteligencia Artificial, Blockchain"
 ---
 
 La desinformación y las [fake news](https://es.wikipedia.org/wiki/Fake_news) son una herramienta de influencia poderosa y no precisamente costosa que puede llegar a destruir la confianza en la sociedad.
 
-![Deepfakes – Armas legales contra la distorsión de la realidad](./deepfakes-armas-legales-contra-la-distorsion-de-la-realidad.jpg "Deepfakes – Armas legales contra la distorsión de la realidad")
+![Deepfakes – Armas legales contra la distorsión de la realidad © Can Stock Photo / master1305](./deepfakes-armas-legales-contra-la-distorsion-de-la-realidad.jpg "Deepfakes – Armas legales contra la distorsión de la realidad © Can Stock Photo / master1305")
 
 ## ¿Qué son los "Deepfakes"?
 
@@ -22,7 +22,7 @@ Un ejemplo respecto al uso de _deepfakes_ con políticos es el vídeo subido en 
 
 <iframe src="https://www.youtube.com/embed/cQ54GDm1eL0"></iframe>
 
-El uso de aplicaciones como ZaoApp, FaceApp han hecho que las tecnologías de _deepfakes_ se extiendan y sean accesibles a cualquiera, puesto que lo único que necesitamos es un teléfono inteligente para descargarnos dichas aplicaciones.
+El uso de aplicaciones como ZaoApp y FaceApp han hecho que las tecnologías de _deepfakes_ se extiendan y sean accesibles a cualquiera, puesto que lo único que necesitamos es un teléfono inteligente para descargarnos dichas aplicaciones.
 
 Las herramientas para generar _#deepfakes_ suelen ser gratuitas, fáciles de acceder y no necesitan conocimientos de programación para utilizarlas.
 
@@ -32,15 +32,15 @@ En primer lugar, cabe indicar que muchas veces el uso de _deepfakes_ puede queda
 
 No obstante, existen otros supuestos en los que resulta evidente que se utilizan este tipo de técnicas para desacreditar, inducir a confusión y engaño, tergiversando la información o los acontecimientos con el objetivo de manipular la opinión pública. Incluso si posteriormente se demuestra que las imágenes o vídeos son falsos, el daño a la reputación de la persona agraviada es irreparable.
 
-Actualmente, en España no existe una regulación específica para abordar la problemática de los _deepfakes_. No obstante, la legislación vigente ofrece un marco jurídico aplicable para combatir este tipo de conductas, por ejemplo, en caso de que estemos ante un contenido original este podría estar protegido por los derechos de autor, el uso de información personal o confidencial podría quedar amparado bajo la normativa de protección de datos de carácter personal y a la normativa de competencia desleal, en caso de contenido difamatorio podemos acudir a la Ley Orgánica 1/1982 de 5 de mayo de protección civil del derecho al honor, a la intimidad personal y familiar, en caso de injurias y calumnias podemos acudir a lo tipificado en nuestro Código Penal.
+Actualmente, <mark>en España no existe una regulación específica para abordar la problemática de los _deepfakes_</mark>. No obstante, la legislación vigente ofrece un marco jurídico aplicable para combatir este tipo de conductas, por ejemplo, en caso de que estemos ante un contenido original este podría estar protegido por los derechos de autor, el uso de información personal o confidencial podría quedar amparado bajo la normativa de protección de datos de carácter personal y a la normativa de competencia desleal, en caso de contenido difamatorio podemos acudir a la Ley Orgánica 1/1982 de 5 de mayo de protección civil del derecho al honor, a la intimidad personal y familiar, en caso de injurias y calumnias podemos acudir a lo tipificado en nuestro Código Penal.
 
 <mark>Además de lo anterior, los **prestadores de servicios de la información** juegan un papel muy importante a la hora de detectar, controlar y evitar la difusión de _deepfakes_.</mark>
 
-A este respecto, el 5 de marzo de 2020, la red social de **Twitter** estableció una serie de reglas en su [Política relativa a los contenidos multimedia falsos y alterados](https://help.twitter.com/es/rules-and-policies/manipulated-media) en la cual se reserva una serie de derechos para evitar la difusión de este tipo de contenido.
+A este respecto, el 5 de marzo de 2020, <mark>la red social de **Twitter** estableció una serie de reglas en su [Política relativa a los contenidos multimedia falsos y alterados](https://help.twitter.com/es/rules-and-policies/manipulated-media) en la cual se reserva una serie de derechos para evitar la difusión de este tipo de contenido</mark>.
 
 ## ¿Qué tecnologías podemos utilizar para hacer frente a los "Deepfakes"?
 
-Actualmente, existen una serie de plataformas creadas para detectar _deepfakes_ tales como, por ejemplo, Defudger, Truepic, u otras. Algunas de estas plataformas utilizan la inteligencia artificial para su detección y otras hacen uso del #Blockchain ya que esta tecnología provee de niveles de seguridad, aprobación y validación.
+Actualmente, existen una serie de plataformas creadas para detectar _deepfakes_ tales como, por ejemplo, Defudger, Truepic, u otras. Algunas de estas plataformas utilizan la inteligencia artificial para su detección y otras hacen uso del Blockchain.
 
 ## ¿Sería recomendable prohibir el uso de los "Deepfakes"?
 

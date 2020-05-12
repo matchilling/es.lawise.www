@@ -3,26 +3,26 @@ module.exports = {
     title: `LAWISE`,
     authors: [
       {
-        name: `Carlota`,
-        summary: `Lawyer in Intellectual Property, Information Technologies and Data Protection.`,
+        name: `Carlota Corredoira`,
+        summary: `Abogada especializada en privacidad y derecho tecnológico, con más de cinco años de experiencia en el asesoramiento de compañías multinacionales y startups, asesorando en temas de robótica e inteligencia artificial, drones, eGaming, reconocimiento facial y mucho más. Entusiasta de las nuevas tecnologías y firmemente convencida del valor de la innovación como motor de mejora social.`,
         social: {
-          twitter: `estefaniavecc`,
+          twitter: ``,
         },
       },
       {
-        name: `Estefania`,
-        summary: `Lawyer specialized in Intellectual Property and Digital Law. Focused in the protection and advocacy of my clients' intangible rights by providing strategic, innovative and efficient solutions.`,
+        name: `Estefania Asensio`,
+        summary: `Abogada especializada en propiedad intelectual y tecnologías disruptivas, con amplia experiencia asesorando a compañías nacionales e internacionales en la protección y defensa de marcas y derechos de imagen, así como en proyectos que implementan tecnologías tales como reconocimiento facial, mobility-as-a-service, inteligencia artificial, u otros.`,
         twitter: `estefaniavecc`,
         social: {
           twitter: `estefaniavecc`,
         },
       },
     ],
-    description: `News, articles and analysis on legal issues related to #AI, #Blockchain, #DataSecurity, #IP, #LegalTech and more ... ⚖️ 🤖 💥`,
+    description: `En LAWISE compartimos artículos y notas de actualidad sobre temas legales relacionados con la inteligencia artificial, privacidad, propiedad intelectual, eGaming, Blockchain, LegalTech y otros asuntos de interés.`,
     siteUrl: `https://www.lawise.es`,
     social: {
-      linkedIn: `estefaniavecc`,
-      twitter: `estefaniavecc`,
+      linkedIn: `lawise-tech`,
+      twitter: `lawise_es`,
     },
   },
   plugins: [

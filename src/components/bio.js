@@ -21,9 +21,9 @@ const Bio = props => {
           }
         }
       }
-      estefania: file(absolutePath: { regex: "/profile-estefania.jpg/" }) {
+      estefania: file(absolutePath: { regex: "/profile-estefania-01.jpg/" }) {
         childImageSharp {
-          fixed(width: 50, height: 50) {
+          fixed(width: 80, height: 80) {
             ...GatsbyImageSharpFixed
           }
         }
@@ -53,7 +53,7 @@ const Bio = props => {
   if (props.author === "Carlota") {
     avatar = data.carlota
   }
-  if (props.author === "Estefania") {
+  if (props.author === "Estefania Asensio") {
     avatar = data.estefania
   }
 
@@ -68,9 +68,9 @@ const Bio = props => {
         fixed={avatar.childImageSharp.fixed}
         alt={author.name}
         style={{
-          marginRight: rhythm(1 / 2),
+          marginRight: rhythm(2),
           marginBottom: 0,
-          minWidth: 50,
+          minWidth: 80,
           borderRadius: `100%`,
         }}
         imgStyle={{

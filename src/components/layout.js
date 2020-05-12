@@ -1,13 +1,12 @@
 import React from "react"
-import { Link } from "gatsby"
 
-import { rhythm, scale } from "../utils/typography"
+import { rhythm } from "../utils/typography"
 import "./layout.css"
 import Footer from "./footer"
+import Disclaimer from "./disclaimer"
 
 const Layout = ({ location, title, children }) => {
-  const rootPath = `${__PATH_PREFIX__}/`
-  let header
+  let disclaimer = location.pathname !== "/" ? <Disclaimer /> : ""
 
   return (
     <React.Fragment>
@@ -21,6 +20,7 @@ const Layout = ({ location, title, children }) => {
       >
         <main>{children}</main>
       </div>
+      {disclaimer}
       <Footer />
     </React.Fragment>
   )
