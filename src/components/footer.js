@@ -2,7 +2,7 @@ import React from "react"
 import { rhythm } from "../utils/typography"
 
 const Footer = ({ location }) => {
-  const about = !["/acerca"].includes(location.pathname) ? (
+  const about = !["/acerca/"].includes(location.pathname) ? (
     <div>
       <h4>LAWISE</h4>
       <p>

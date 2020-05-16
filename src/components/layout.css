@@ -156,3 +156,50 @@ footer hr {
   margin: 0;
   text-align: justify;
 }
+.visible-lg, .visible-md, .visible-sm, .visible-xs {
+  display: none !important;
+}
+
+@media (max-width: 768px) {
+  .visible-xs {
+    display: block !important;
+  }
+
+  .hidden-xs {
+    display: none !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .visible-sm {
+    display: block !important;
+  }
+
+  .hidden-sm {
+    display: none !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .visible-md {
+    display: block !important;
+  }
+
+  .hidden-md {
+    display: none !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .visible-lg {
+    display: block !important;
+  }
+
+  .hidden-lg {
+    display: none !important;
+  }
+}
+
+.article-preview:first-of-type {
+  margin-top: 3.3rem !important;
+}

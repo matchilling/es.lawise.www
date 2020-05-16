@@ -37,7 +37,9 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
                 marginBottom: rhythm(1),
               }}
             >
-              {post.frontmatter.date}
+              <span style={{ textTransform: `capitalize` }}>
+                {post.frontmatter.date}
+              </span>
             </p>
           </div>
           <section dangerouslySetInnerHTML={{ __html: post.html }} />
@@ -96,7 +98,7 @@ export const pageQuery = graphql`
       frontmatter {
         title
         author
-        date(formatString: "MMMM DD, YYYY")
+        date(formatString: "MMMM DD, YYYY", locale: "es")
         description
       }
     }
