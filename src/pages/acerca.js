@@ -15,7 +15,12 @@ const AboutPage = ({ data, location }) => {
       <Layout location={location} title={siteTitle}>
         <SEO title="Quiénes somos" />
         <h1 style={{ marginTop: `1.75rem` }}>Quiénes somos</h1>
-        <p>
+        <p
+          style={{
+            fontSize: `110%`,
+            fontWeight: `200`,
+          }}
+        >
           LAWISE es un espacio donde analizamos las implicaciones legales y
           efectos que conllevan los avances tecnológicos en las organizaciones y
           en nuestra vida cotidiana. Aquí encontrarás artículos y notas de
