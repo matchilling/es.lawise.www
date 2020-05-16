@@ -18,7 +18,7 @@ Dado su éxito en el año 2013, "Fack Ju Göhte" cuenta con dos secuelas produci
 
 ## Antecedentes
 
-En el año 2015, Constantin Film Produktion solicitó el registro de la marca denominativa "Fack Ju Göhte" ante la European Union Intellectual Property Office (EUIPO) que fue <mark>denegada en base al artículo 7.1 f) del Reglamento sobre la Marca de la Unión Europea (RMUE) al considerar que dicha expresión era contraria a las buenas costumbres</mark>. 
+En el año 2015, Constantin Film Produktion solicitó el registro de la marca denominativa "Fack Ju Göhte" ante la European Union Intellectual Property Office (EUIPO) que fue <mark>denegada en base al artículo 7.1 f) del Reglamento sobre la Marca de la Unión Europea (RMUE) al considerar que dicha expresión era contraria a las buenas costumbres</mark>.
 
 Dicha decisión fue recurrida, en primer lugar, ante la Sala de Recursos de la EUIPO y posteriormente ante TGUE, en ambos casos fueron desestimados los motivos alegados y se confirmó que dicha expresión resultaba _"de mal gusto, chocante e intrínsecamente vulgar"_ y, por tanto, podía ofender al público pertinente ([asunto C-69/17](curia.europa.eu/juris/document/document.jsf?text=&docid=198722&pageIndex=0&doclang=FR&mode=req&dir=&occ=first&part=1&cid=595965)).
 
@@ -26,13 +26,13 @@ Ante esta situación, <mark>la productora recurrió ante el Tribunal de Justicia
 
 ## Con anterioridad a esta sentencia ¿qué se entendía por "buenas costumbres"?
 
-El término de "buenas costumbres" viene recogido en el artículo 4.1 f) de la Directiva (UE) 2015/2436 de 16 de diciembre de 2015 y en el correspondiente artículo 7.1 f) del RMUE como motivo de prohibición absoluta de registro de una marca. 
+El término de "buenas costumbres" viene recogido en el artículo 4.1 f) de la Directiva (UE) 2015/2436 de 16 de diciembre de 2015 y en el correspondiente artículo 7.1 f) del RMUE como motivo de prohibición absoluta de registro de una marca.
 
 No obstante, dicho término no se encuentra definido en la normativa marcaria, por tanto, al tratarse de un concepto indeterminado e impreciso requiere de una constante reinterpretación para poder admitir o no el registro de una determinada marca.
 
-## ¿Porqué esta sentencia tiene tanta relevancia?
+## ¿Por qué esta sentencia tiene tanta relevancia?
 
-Dicha sentencia resulta de gran importancia puesto que intenta delimitar el concepto de "buenas costumbres" señalando una serie de cuestiones de carácter contextual, que con anterioridad no se tenían en cuenta a la hora de entrar a valorar si una marca era contraria o no a las buenas costumbres. 
+Dicha sentencia resulta de gran importancia puesto que intenta delimitar el concepto de "buenas costumbres" señalando una serie de cuestiones de carácter contextual, que con anterioridad no se tenían en cuenta a la hora de entrar a valorar si una marca era contraria o no a las buenas costumbres.
 
 Además de lo anterior, la sentencia en cuestión reconoce por primera vez que debe tenerse en consideración el respeto a la libertad de expresión al aplicar el artículo 7.1 f) del RMUE.
 
@@ -41,6 +41,7 @@ Además de lo anterior, la sentencia en cuestión reconoce por primera vez que d
 Respecto al concepto de "buenas costumbres", el Tribunal manifiesta estar de acuerdo con lo señalado por el Abogado General, cuando indica que dicho concepto _"hace referencia, en su sentido habitual a valores y normas morales fundamentales aceptados por una determinada sociedad en un momento dado"_. Así, dichos valores y normas, podrán ir evolucionando a lo largo del tiempo y, es por ello, que se <mark>deberán tener en cuenta el contexto social, incluidas las características culturales, religiosas o filosóficas que le son propias, con el fin de evaluar, de manera objetiva, lo que la sociedad considera moralmente aceptable en cada momento</mark>.
 
 A continuación, señalamos los elementos contextuales tenidos en cuenta en este caso:
+
 - el gran éxito de la comedia epónima entre el público pertinente (Alemania y Austria);
 - ausencia de controversia en lo que se refiere al título de la comedia;
 - acceso del público joven a la misma;

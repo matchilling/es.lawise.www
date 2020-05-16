@@ -3,19 +3,14 @@ import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Line from "../components/line"
 
 const NotFoundPage = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
 
   return (
     <React.Fragment>
-      <div
-        style={{
-          borderWidth: `16px 0 0`,
-          borderTopStyle: `solid`,
-          borderImage: `linear-gradient(139deg, #fb8817, #ff4b01, #c12127, #e02aff) 3`,
-        }}
-      />
+      <Line />
       <Layout location={location} title={siteTitle}>
         <SEO title="404: Not Found" />
         <h1>Not Found</h1>

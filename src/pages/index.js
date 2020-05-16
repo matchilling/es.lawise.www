@@ -8,16 +8,11 @@ import Header from "../components/header"
 
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
-  const description = data.site.siteMetadata.description
-
   const posts = data.allMarkdownRemark.edges
-    .concat(data.allMarkdownRemark.edges)
-    .concat(data.allMarkdownRemark.edges)
 
   return (
     <React.Fragment>
       <Header />
-
       <Layout location={location} title={siteTitle}>
         <SEO title="LAWISE" />
 

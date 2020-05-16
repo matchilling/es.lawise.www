@@ -1,7 +1,30 @@
 import React from "react"
 import { rhythm } from "../utils/typography"
 
-const Footer = () => {
+const Footer = ({ location }) => {
+  const about = !["/acerca"].includes(location.pathname) ? (
+    <div>
+      <h4>LAWISE</h4>
+      <p>
+        LAWISE es un espacio donde analizamos las implicaciones legales y
+        efectos que conllevan los avances tecnológicos en las organizaciones y
+        en nuestra vida cotidiana. Aquí encontrarás artículos y notas de
+        actualidad sobre temas legales relacionados con la inteligencia
+        artificial, privacidad, propiedad intelectual, e-Gaming, Blockchain,
+        LegalTech y otros asuntos de interés.
+      </p>
+      <hr
+        style={{
+          marginLeft: `auto`,
+          marginRight: `auto`,
+          maxWidth: rhythm(24),
+        }}
+      />
+    </div>
+  ) : (
+    ""
+  )
+
   return (
     <React.Fragment>
       <footer>
@@ -12,25 +35,8 @@ const Footer = () => {
             maxWidth: rhythm(24),
           }}
         >
-          <div>
-            <h4>LAWISE</h4>
-            <p>
-              LAWISE es un espacio donde analizamos las implicaciones legales y
-              efectos que conllevan los avances tecnológicos en las
-              organizaciones y en nuestra vida cotidiana. Aquí encontrarás
-              artículos y notas de actualidad sobre temas legales relacionados
-              con la inteligencia artificial, privacidad, propiedad intelectual,
-              e-Gaming, Blockchain, LegalTech y otros asuntos de interés.
-            </p>
-          </div>
+          {about}
         </div>
-        <hr
-          style={{
-            marginLeft: `auto`,
-            marginRight: `auto`,
-            maxWidth: rhythm(24),
-          }}
-        />
         <div
           style={{
             marginLeft: `auto`,
@@ -53,9 +59,6 @@ const Footer = () => {
             <ul>
               <li>
                 <a href={""}>Aviso legal</a>
-              </li>
-              <li>
-                <a href={""}>Privacidad</a>
               </li>
               <li>
                 <a href={""}>Cookies</a>

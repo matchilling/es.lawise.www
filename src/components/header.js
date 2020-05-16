@@ -13,9 +13,11 @@ const Header = () => {
       >
         <div
           style={{
+            display: `flex`,
             marginLeft: `auto`,
             marginRight: `auto`,
             maxWidth: rhythm(24),
+            justifyContent: `space-between`,
           }}
         >
           <a href="/" className="logo">
@@ -29,6 +31,9 @@ const Header = () => {
               <span style={{ display: `none` }}>L</span>AWISE
             </span>
           </a>
+          <nav>
+            <a href="/acerca">Quiénes somos</a>
+          </nav>
         </div>
       </header>
     </React.Fragment>

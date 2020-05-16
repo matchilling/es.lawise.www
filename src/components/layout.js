@@ -6,7 +6,7 @@ import Footer from "./footer"
 import Disclaimer from "./disclaimer"
 
 const Layout = ({ location, title, children }) => {
-  let disclaimer = location.pathname !== "/" ? <Disclaimer /> : ""
+  const disclaimer = !["/"].includes(location.pathname) ? <Disclaimer /> : ""
 
   return (
     <React.Fragment>
@@ -21,7 +21,7 @@ const Layout = ({ location, title, children }) => {
         <main>{children}</main>
       </div>
       {disclaimer}
-      <Footer />
+      <Footer location={location} />
     </React.Fragment>
   )
 }

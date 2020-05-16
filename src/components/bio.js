@@ -16,14 +16,14 @@ const Bio = props => {
     query BioQuery {
       carlota: file(absolutePath: { regex: "/profile-carlota.jpg/" }) {
         childImageSharp {
-          fixed(width: 50, height: 50) {
+          fixed(width: 180, height: 180) {
             ...GatsbyImageSharpFixed
           }
         }
       }
       estefania: file(absolutePath: { regex: "/profile-estefania-01.jpg/" }) {
         childImageSharp {
-          fixed(width: 80, height: 80) {
+          fixed(width: 180, height: 180) {
             ...GatsbyImageSharpFixed
           }
         }
@@ -50,7 +50,7 @@ const Bio = props => {
   const author = authors.filter(it => it.name === props.author).pop()
 
   let avatar = undefined
-  if (props.author === "Carlota") {
+  if (props.author === "Carlota Corredoira") {
     avatar = data.carlota
   }
   if (props.author === "Estefania Asensio") {
@@ -68,17 +68,18 @@ const Bio = props => {
         fixed={avatar.childImageSharp.fixed}
         alt={author.name}
         style={{
-          marginRight: rhythm(2),
-          marginBottom: 0,
-          minWidth: 80,
           borderRadius: `100%`,
+          marginBottom: 0,
+          marginRight: rhythm(2),
+          maxHeight: 95,
+          minWidth: 95,
         }}
         imgStyle={{
           borderRadius: `50%`,
         }}
       />
       <p>
-        Escrito por <strong>{author.name}</strong> • {author.summary}
+        <strong>{author.name}</strong> • {author.summary}
         {` `}
       </p>
     </div>
