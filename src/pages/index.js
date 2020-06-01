@@ -139,10 +139,6 @@ const top = (post, imgAlignLeft) => {
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
   const posts = data.allMarkdownRemark.edges
-    .concat(data.allMarkdownRemark.edges)
-    .concat(data.allMarkdownRemark.edges)
-    .concat(data.allMarkdownRemark.edges)
-    .concat(data.allMarkdownRemark.edges)
 
   return (
     <React.Fragment>
