@@ -1,5 +1,5 @@
 ---
-title: "Fack Ju Göhte - ¿Marca vulgar o moralmente inaceptable?"
+title: "Fack Ju Göhte - ¿Puede registrarse como marca una expresión malsonante?"
 author: "Estefania Asensio"
 date: "2020-05-23T12:30:00.000Z"
 description: "El pasado 27 de febrero, Tribunal de Justicia de la Unión Europea (TJUE) dictó sentencia pronunciándose a favor del registro de la marca de la Unión 'Fack Ju Göhte'."
@@ -20,7 +20,7 @@ Dado su éxito en el año 2013, "Fack Ju Göhte" cuenta con dos secuelas produci
 
 En el año 2015, Constantin Film Produktion solicitó el registro de la marca denominativa "Fack Ju Göhte" ante la European Union Intellectual Property Office (EUIPO) que fue <mark>denegada en base al artículo 7.1 f) del Reglamento sobre la Marca de la Unión Europea (RMUE) al considerar que dicha expresión era contraria a las buenas costumbres</mark>.
 
-Dicha decisión fue recurrida, en primer lugar, ante la Sala de Recursos de la EUIPO y posteriormente ante TGUE, en ambos casos fueron desestimados los motivos alegados y se confirmó que dicha expresión resultaba _"de mal gusto, chocante e intrínsecamente vulgar"_ y, por tanto, podía ofender al público pertinente ([asunto C-69/17](curia.europa.eu/juris/document/document.jsf?text=&docid=198722&pageIndex=0&doclang=FR&mode=req&dir=&occ=first&part=1&cid=595965)).
+Dicha decisión fue recurrida, en primer lugar, ante la Sala de Recursos de la EUIPO y posteriormente ante TGUE, en ambos casos fueron desestimados los motivos alegados y se confirmó que dicha expresión resultaba _"de mal gusto, chocante e intrínsecamente vulgar"_ y, por tanto, podía ofender al público pertinente ([asunto C-69/17](http://curia.europa.eu/juris/document/document.jsf?text=&docid=198722&pageIndex=0&doclang=FR&mode=req&dir=&occ=first&part=1&cid=595965)).
 
 Ante esta situación, <mark>la productora recurrió ante el Tribunal de Justicia de la Unión Europea (TJUE) y, para sorpresa de todos, en fecha del pasado 27 de febrero, este dictó sentencia pronunciándose a favor del registro de la marca de la Unión "Fack Ju Göhte" ([asunto C-240/18 P](http://curia.europa.eu/juris/document/document.jsf?text=&docid=198722&pageIndex=0&doclang=FR&mode=req&dir=&occ=first&part=1&cid=595965))</mark>.
 
