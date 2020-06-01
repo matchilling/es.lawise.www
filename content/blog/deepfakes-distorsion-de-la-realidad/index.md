@@ -55,4 +55,3 @@ No obstante, lo que preocupa a los legisladores es aquellos usos ilegítimos o s
 ## Referencias
 
 [^1]: Edvinas Meskys, Aidas Liaudanskas, Julija Kalpokiene, Paulius Jurcys, Regulating deep fakes: legal and ethical considerations, Journal of Intellectual Property Law & Practice, Volume 15, Issue 1, January 2020, Pages 24–31, [https://doi.org/10.1093/jiplp/jpz167](https://doi.org/10.1093/jiplp/jpz167)
-

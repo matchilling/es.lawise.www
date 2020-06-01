@@ -58,10 +58,10 @@ const Footer = ({ location }) => {
             </div>
             <ul>
               <li>
-                <a href={""}>Aviso legal</a>
+                <a href={"/aviso-legal/"}>Aviso legal</a>
               </li>
               <li>
-                <a href={""}>Cookies</a>
+                <a href={"/cookies/"}>Cookies</a>
               </li>
             </ul>
           </section>

@@ -18,7 +18,7 @@ Con el objetivo de dar respuesta a la cuestión planteada inicialmente en el tí
 
 DABUS es un sistema de inteligencia artificial creado por Stephen Thaler, CEO de una compañía llamada Imagination Engines. Dicho sistema, DABUS AI, fue alimentado con ingentes cantidades de datos de carácter general, y fue capaz de crear, por sí mismo, dos invenciones pertenecientes a diferentes campos técnicos.
 
-En este sentido, <mark>su creador Stephen Thaler sostuvo que él no tenía conocimientos técnicos sobre las dos invenciones creadas de manera autónoma por el sistema DABUS y, tampoco había participado en el proceso inventivo de las mismas.  Por tanto, consideraba a DABUS como legítimo inventor de las invenciones</mark> que más adelante mencionaremos.
+En este sentido, <mark>su creador Stephen Thaler sostuvo que él no tenía conocimientos técnicos sobre las dos invenciones creadas de manera autónoma por el sistema DABUS y, tampoco había participado en el proceso inventivo de las mismas. Por tanto, consideraba a DABUS como legítimo inventor de las invenciones</mark> que más adelante mencionaremos.
 
 En noviembre de 2018, el equipo legal de expertos en patentes del proyecto denominado [Artificial Inventor Project](http://artificialinventor.com/patent-applications/) (AIP) fueron los encargados de presentar dos solicitudes de patentes ante la European Patent Office (EPO). Por un lado, presentaron la solicitud [EP18275163](https://register.epo.org/application?number=EP18275163&tab=main), relativa a un contenedor de alimentos y, por otro lado, la solicitud [EP18275174](https://register.epo.org/application?number=EP18275174), relativa a una lámpara diseñada para parpadear a un ritmo que imita los patrones de actividad neuronal que acompañan a la formación de las ideas. <mark>La particularidad que presentaban dichas solicitudes es que en ambas figuraba como inventor DABUS</mark>.
 
@@ -39,9 +39,7 @@ Por esta razón, resulta vital establecer un nuevo marco normativo armonizado qu
 ## Referencias
 
 [^1]: Dr. Noam Stemtov (February 2019). A study on inventorship in inventions involving AI activity
-
 [^2]: EPO publishes grounds for its decision to refuse two patent applications naming a machine as inventor [https://www.epo.org/news-events/news/2020/20200128.html](https://www.epo.org/news-events/news/2020/20200128.html)
-
 [^3]: UKIPO Decision 074119 (Patents Acts 1977)
- 
-[^4]: AI cannot be recognised as an inventor, US rules. https://www.bbc.com/news/technology-52474250
+
+  [^4]: AI cannot be recognised as an inventor, US rules. https://www.bbc.com/news/technology-52474250
