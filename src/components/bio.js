@@ -14,14 +14,14 @@ import { rhythm } from "../utils/typography"
 const Bio = props => {
   const data = useStaticQuery(graphql`
     query BioQuery {
-      carlota: file(absolutePath: { regex: "/profile-carlota.jpg/" }) {
+      carlota: file(absolutePath: { regex: "/profile-carlota-01.jpg/" }) {
         childImageSharp {
           fixed(width: 180, height: 180) {
             ...GatsbyImageSharpFixed
           }
         }
       }
-      estefania: file(absolutePath: { regex: "/profile-estefania-01.jpg/" }) {
+      estefania: file(absolutePath: { regex: "/profile-estefania-03.jpg/" }) {
         childImageSharp {
           fixed(width: 180, height: 180) {
             ...GatsbyImageSharpFixed
