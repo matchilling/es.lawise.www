@@ -97,6 +97,12 @@ module.exports = {
       options: {
         trackingId: "UA-168165987-1"
       }
+    },
+    {
+      resolve: `gatsby-plugin-sitemap`,
+      options: {
+        output: `/sitemap.xml`
+      }
     }
   ]
 }
