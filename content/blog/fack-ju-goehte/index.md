@@ -1,7 +1,7 @@
 ---
 title: "Fack Ju Göhte - ¿Puede registrarse como marca una expresión malsonante?"
 author: "Estefania Asensio"
-date: "2020-05-23T12:30:00.000Z"
+date: "2020-05-15T12:30:00.000Z"
 description: "El pasado 27 de febrero, Tribunal de Justicia de la Unión Europea (TJUE) dictó sentencia pronunciándose a favor del registro de la marca de la Unión 'Fack Ju Göhte'."
 tags: "Propiedad Intelectual, Marcas"
 ---
