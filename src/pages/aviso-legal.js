@@ -27,9 +27,9 @@ const DisclaimerPage = ({ data, location }) => {
         </p>
         <p style={styles}>
           La Página web es de titularidad y está gestionada por Estefanía
-          Asensio Vecchio (en adelante, "LAWISE"), domiciliada en Carrer de Sant
-          Domènec, número 17, principal 1a, con CP 08012, Barcelona, con correo
-          electrónico: contacto@lawise.es
+          Asensio Vecchio y Carlota Corredoira (en adelante, "LAWISE"),
+          domiciliada en Carrer de Sant Domènec, número 17, principal 1a, con CP
+          08012, Barcelona, con correo electrónico: contacto@lawise.es
         </p>
         <h2>Objeto y alcance</h2>
         <p style={styles}>
