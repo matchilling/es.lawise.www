@@ -6,10 +6,45 @@
  */
 
 import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
+import { graphql, useStaticQuery } from "gatsby"
 import Image from "gatsby-image"
+import { LinkedIn, Twitter } from "./icon"
 
 import { rhythm } from "../utils/typography"
+
+const link = (type, target) => {
+  if (!target) {
+    return undefined
+  }
+
+  const fill = "#262626"
+  const height = 40
+  const width = 40
+  const style = {
+    link: {
+      boxShadow: `none`,
+      display: `inline-block`,
+    },
+  }
+
+  if (type === "linkedin") {
+    return (
+      <a href={target} style={style.link} rel={"_nofollow"}>
+        <LinkedIn fill={fill} height={height} width={width} />
+      </a>
+    )
+  }
+
+  if (type === "twitter") {
+    return (
+      <a href={target} style={style.link} rel={"_nofollow"}>
+        <Twitter fill={fill} height={height} width={width} />
+      </a>
+    )
+  }
+
+  throw new Error(`Undefined type ${type} found.`)
+}
 
 const Bio = props => {
   const data = useStaticQuery(graphql`
@@ -35,6 +70,7 @@ const Bio = props => {
             summary
             twitter
             social {
+              linkedin
               twitter
             }
           }
@@ -80,7 +116,14 @@ const Bio = props => {
       />
       <p>
         <strong>{author.name}</strong> • {author.summary}
-        {` `}
+        <br />
+        <div
+          style={{
+            marginTop: "1rem",
+          }}
+        >
+          {Object.keys(author.social).map(it => link(it, author.social[it]))}
+        </div>
       </p>
     </div>
   )
