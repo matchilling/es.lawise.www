@@ -12,7 +12,7 @@ La desinformación y las [fake news](https://es.wikipedia.org/wiki/Fake_news) so
 
 ## ¿Qué son los "Deepfakes"?
 
-Los ["Deepfakes"](https://es.wikipedia.org/wiki/Deepfake) son el resultado de aplicar técnicas de inteligencia artificial que permiten, mediante el uso de algoritmos de aprendizaje, recrear de manera virtual la imagen, voz e incluso los gestos de una persona. El resultado final del uso de esta herramienta son vídeos o audios muy realistas (aunque falsos) en los que se encuentran a alguien haciendo o diciendo algo que en realidad no hizo ni dijo.
+Los ["Deepfakes"](https://es.wikipedia.org/wiki/Deepfake) son el resultado de aplicar técnicas de inteligencia artificial que permiten, mediante el uso de algoritmos de aprendizaje, recrear de manera virtual la imagen, voz, e incluso los gestos de una persona. El resultado final del uso de esta herramienta son vídeos o audios muy realistas (aunque falsos) en los que se encuentran a alguien haciendo o diciendo algo que en realidad no hizo ni dijo.
 
 > > Los #deepfakes son un ejemplo claro de las repercusiones negativas que puede causar en nuestra sociedad un mal uso de la Inteligencia Artificial.
 
