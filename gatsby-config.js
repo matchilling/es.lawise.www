@@ -23,7 +23,7 @@ module.exports = {
     description: `En LAWISE compartimos artículos y notas de actualidad sobre temas legales relacionados con la inteligencia artificial, privacidad, propiedad intelectual, eGaming, Blockchain, LegalTech y otros asuntos de interés.`,
     siteUrl: `https://www.lawise.es`,
     social: {
-      linkedIn: `https://www.linkedin.com/in/estefaniaasensiovecchio`,
+      linkedin: `https://www.linkedin.com/company/lawise-tech`,
       twitter: `http://twitter.com/lawise_es`,
     },
   },
