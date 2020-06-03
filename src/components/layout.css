@@ -31,6 +31,12 @@ h2 {
   line-height: 48px;
 }
 
+@media (max-width: 768px) {
+  a.article-preview.standard h2 {
+    font-weight: 900 !important;
+  }
+}
+
 iframe {
   border: none;
   width: 100%;
@@ -156,6 +162,7 @@ footer hr {
   margin: 0;
   text-align: justify;
 }
+
 .visible-lg, .visible-md, .visible-sm, .visible-xs {
   display: none !important;
 }
