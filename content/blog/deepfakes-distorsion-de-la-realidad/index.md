@@ -1,7 +1,7 @@
 ---
 title: "Deepfakes – Armas legales contra la distorsión de la realidad"
 author: "Estefania Asensio"
-date: "2020-06-02T12:30:00.000Z"
+date: "2020-06-04T12:30:00.000Z"
 description: "La desinformación y las fake news son una herramienta de influencia poderosa y no precisamente costosa que puede llegar a destruir la confianza en la sociedad."
 tags: "Inteligencia Artificial, Blockchain"
 ---
