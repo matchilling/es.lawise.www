@@ -7,18 +7,65 @@ import SEO from "../components/seo"
 import { rhythm, scale } from "../utils/typography"
 import Header from "../components/header"
 
+const readTime = (words, options) => {
+  const defaults = Object.assign(
+      {
+        wordsPerMinute: 225,
+      },
+      options
+    ),
+    minutes = words / defaults.wordsPerMinute
+
+  return Math.ceil(minutes.toFixed(2))
+}
+
 const BlogPostTemplate = ({ data, pageContext, location }) => {
   const post = data.markdownRemark
   const siteTitle = data.site.siteMetadata.title
   const { previous, next } = pageContext
+
+  const meta = [
+    {
+      name: "description",
+      content: post.frontmatter.description || post.excerpt,
+    },
+    { name: "og:type", content: "article" },
+    { name: "og:title", content: post.frontmatter.title },
+    {
+      name: "og:description",
+      content: post.frontmatter.description || post.excerpt,
+    },
+    {
+      name: "twitter:description",
+      content: post.frontmatter.description || post.excerpt,
+    },
+    { name: "twitter:label_read_time", content: "Minutos de lectura" },
+    {
+      name: "twitter:data_read_time",
+      content: readTime(post.wordCount.words),
+    },
+  ]
+
+  const re = /\"(\/static.*?)\"/g
+  let firstImageUrl = post.html.match(re)
+  if (firstImageUrl) {
+    const url = `${
+      process.env.NODE_ENV === "development"
+        ? "http://localhost:8000"
+        : "https://www.lawise.es"
+    }${firstImageUrl[0].replace(/['"]+/g, "")}`
+    meta.push({ name: "og:image", content: url })
+    meta.push({ name: "twitter:image", content: url })
+  }
 
   return (
     <React.Fragment>
       <Header />
       <Layout location={location} title={siteTitle}>
         <SEO
-          title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}
+          meta={meta}
+          title={post.frontmatter.title}
         />
         <article>
           <div>
@@ -100,6 +147,9 @@ export const pageQuery = graphql`
         author
         date(formatString: "MMMM DD, YYYY", locale: "es")
         description
+      }
+      wordCount {
+        words
       }
     }
   }
