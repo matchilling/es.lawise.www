@@ -4,12 +4,14 @@ import { rhythm } from "../utils/typography"
 import "./layout.css"
 import Footer from "./footer"
 import Disclaimer from "./disclaimer"
+import CookieConsent from "./cookie-consent"
 
 const Layout = ({ location, title, children }) => {
   const disclaimer = !["/"].includes(location.pathname) ? <Disclaimer /> : ""
 
   return (
     <React.Fragment>
+      <CookieConsent />
       <div
         style={{
           marginLeft: `auto`,
