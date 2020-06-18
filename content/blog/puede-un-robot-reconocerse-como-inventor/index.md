@@ -1,5 +1,5 @@
 ---
-title: "¿Puede un robot reconocerse como inventor?"
+title: "¿Puede un sistema de inteligencia artificial reconocerse como inventor?"
 author: "Estefania Asensio"
 date: "2020-05-20T12:30:00.000Z"
 description: "La tecnología avanza cada de vez más deprisa, hacia sistemas de inteligencia artificial (IA) más autónomos, dotados de capacidad de autoaprendizaje, adaptación, e incluso, capacidad para la toma de decisiones. Este tipo de avances tecnológicos susceptibles de protección generan nuevas cuestiones a las que nuestro marco normativo existente debe dar respuestas."
@@ -8,7 +8,7 @@ tags: "Inteligencia Artificial"
 
 La tecnología avanza cada de vez más deprisa, hacia sistemas de inteligencia artificial (IA) más autónomos, dotados de capacidad de autoaprendizaje, adaptación, e incluso, capacidad para la toma de decisiones.
 
-![¿Puede un robot reconocerse como inventor? © Photo by Jesse Chan on Unsplash](./puede-un-robot-reconocerse-como-inventor.jpg "¿Puede un robot reconocerse como inventor? © Photo by Jesse Chan on Unsplash")
+![¿Puede un sistema de IA reconocerse como inventor? © Photo by Jesse Chan on Unsplash](./puede-un-robot-reconocerse-como-inventor.jpg "¿Puede un sistema de IA reconocerse como inventor? © Photo by Jesse Chan on Unsplash")
 
 Este tipo de avances tecnológicos susceptibles de protección generan nuevas cuestiones a las que nuestro marco normativo existente debe dar respuestas.
 
